@@ -1,5 +1,3 @@
-AddType application/x-httpd-php .htm .html
-
 <IfModule mod_rewrite.c>
     RewriteEngine on
     
@@ -14,4 +12,4 @@ AddType application/x-httpd-php .htm .html
     RewriteRule ^(.*)$ $1.html
     #RewriteRule ^([a-z]+)/?$ $1.html [NC]
     
-    </IfModule>
+</IfModule>
