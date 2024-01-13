@@ -26,8 +26,8 @@
 
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="nav navbar-nav">
-                <img src="../src/img/logofus.png" class="img-fluid" width="38"
-                    alt="Logo Fus" />
+                <a href="../index.html"><img src="../src/img/logofus.png" class="img-fluid" width="38"
+                    alt="Logo Fus" /></a>
                 
                 <a class="nav-item nav-link active" href="index.php" aria-current="page"
                     >Home <span class="visually-hidden">(current)</span></a
