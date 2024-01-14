@@ -1,4 +1,34 @@
-<?php include('../templates/header.php'); ?>
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Fus Alianz</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <div class="row">
 
 <div class="container mt-5">
 
@@ -207,20 +237,100 @@
         </div>
     </div>
 
-    <h2>Propiedades Termodinámicas</h2><br>
+<h2>Propiedades Termodinámicas</h2><br>
 
-    <div class="mb-3">
-    <h5>Viscosidad dinámica [Pa·s]</h5>
-        <div class="row">
-            <div class="col-5 mb-3">
-                <input type="checkbox" id="activarCampo" class="form-check-input">
-                <label for="activarCampo">Viscosimetría</label>
-            </div>
-            <div class="col-7 mb-3">
-                <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
-            </div>
+<div class="mb-3">
+<h5>Calor Específico [J/g·K]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;DTA&nbsp;</label>
         </div>
-    </div><br>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dsc" class="form-check-input mt-0">
+            <label for="dsc">&nbsp;DSC&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
+
+<div class="mb-3">
+<h5>Calor Latente [J/g]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;DTA&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dsc" class="form-check-input mt-0">
+            <label for="dsc">&nbsp;DSC&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
+
+<div class="mb-3">
+<h5>Presión de Vapor [Pa]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;Dif. Manométrica&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
+
+<div class="mb-3">
+<h5>Cond. Térmica [W/m·K]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;Laser Flash Pulse&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
+
+<div class="mb-3">
+<h5>Coeficiente de Expansión Térmica [&Delta;V<sub>m</sub>]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;Dilatometría&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
+
+<h2>Propiedades Electromagnéticas</h2><br>
+
+<div class="mb-3">
+<h5>Resistividad [&Omega;·m]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;Shunt&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
+
+<div class="mb-3">
+<h5>Permeabilidad Magnética [N/A<sup>2</sup>]</h5>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <input type="checkbox" id="dta" class="form-check-input mt-0">
+            <label for="dta">&nbsp;Rugowsky&nbsp;</label>
+        </div>
+            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+    </div>
+</div><br>
 
 
 
@@ -236,12 +346,12 @@
 <br><br><br>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 
 
 
-<!-- footer -->
+<!-- footer cierro 4 divs -->
 </div></div></div></div>
 
 

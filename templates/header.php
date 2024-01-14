@@ -39,12 +39,11 @@
                 <a class="nav-item nav-link" href="vista_proyectos.php">Gestión Proyectos</a>
                 <a class="nav-item nav-link" href="cerrar.php">Cerrar sesión</a>
                     </div>
-                </nav>
+        </nav>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <br>
                     <div class="row">
-
                 
