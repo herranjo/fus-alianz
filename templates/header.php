@@ -16,6 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link href="styles.css" rel="stylesheet">
     </head>
 
     <body>
@@ -37,6 +38,7 @@
                 <a class="nav-item nav-link" href="operaciones.php">Operaciones</a>
                 <a class="nav-item nav-link" href="contabilidad.php">Contabilidad</a>
                 <a class="nav-item nav-link" href="vista_proyectos.php">Gestión Proyectos</a>
+                <a class="nav-item nav-link" href="system.php">Sistema Experto</a>
                 <a class="nav-item nav-link" href="cerrar.php">Cerrar sesión</a>
                     </div>
         </nav>

@@ -54,12 +54,12 @@
 </p>
 
 <div class="row">
-    <div class="col-3">
+    <div class="col-2">
     </div>
-    <div class="col-6">
+    <div class="col-8">
         <img src="../src/img/footer.png" class="img-fluid" />
     </div>
-    <div class="col-3">
+    <div class="col-2">
     </div>
 </div><br>
 <br>
@@ -115,24 +115,24 @@
 <h5>Medición del %at Li y %at Li(6)</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="at1" class="form-check-input mt-0">
+            <input type="checkbox" id="at1" name="at1" class="form-check-input mt-0">
             <label for="at1">&nbsp;AAS&nbsp;</label>
         </div>
-            <input type="text" id="tat1" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat1" name="tat1" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Resistividad&nbsp;</label>
+            <input type="checkbox" id="at2" name="at2" class="form-check-input mt-0">
+            <label for="at2">&nbsp;Resistividad&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat2" name="tat2" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;QMSICP&nbsp;</label>
+            <input type="checkbox" id="at3" name="at3" class="form-check-input mt-0">
+            <label for="at3">&nbsp;QMSICP&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat3" name="tat3" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -140,24 +140,24 @@
 <h5>Temperatura media del punto de fusión (ºC)</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;AAS&nbsp;</label>
+            <input type="checkbox" id="at4" name="at4" class="form-check-input mt-0">
+            <label for="at4">&nbsp;AAS&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat4" name="tat4" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Resistividad&nbsp;</label>
+            <input type="checkbox" id="at5" name="at5" class="form-check-input mt-0">
+            <label for="at5">&nbsp;Resistividad&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat5" name="tat5" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;DSC&nbsp;</label>
+            <input type="checkbox" id="at6" name="at6" class="form-check-input mt-0">
+            <label for="at6">&nbsp;DSC&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat6" name="tat6" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -165,17 +165,17 @@
 <h5>Coeficiente de Expansión Volumétrica [&Delta;<sub>Vm</sub>]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Dilatometría&nbsp;</label>
+            <input type="checkbox" id="at7" class="form-check-input mt-0">
+            <label for="at7">&nbsp;Dilatometría&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat7" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Difracción&nbsp;</label>
+            <input type="checkbox" id="at8" class="form-check-input mt-0">
+            <label for="at8">&nbsp;Difracción&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat8" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -183,10 +183,10 @@
 <h5>Masa molecular [g/mol]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Espectometría [QMS]&nbsp;</label>
+            <input type="checkbox" id="at9" class="form-check-input mt-0">
+            <label for="at9">&nbsp;Espectometría [QMS]&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat9" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -194,10 +194,10 @@
 <h5>Densidad(&rho;) [kg/m<sup>3</sup>]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Pictometría&nbsp;</label>
+            <input type="checkbox" id="at10" class="form-check-input mt-0">
+            <label for="at10">&nbsp;Pictometría&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat10" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -205,10 +205,10 @@
 <h5>Viscosidad dinámica [Pa·s]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Viscosimetría&nbsp;</label>
+            <input type="checkbox" id="at11" class="form-check-input mt-0">
+            <label for="at11">&nbsp;Viscosimetría&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat11" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -216,10 +216,10 @@
 <h5>Tensión Superficial [N/m]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Sessile drop&nbsp;</label>
+            <input type="checkbox" id="at12" class="form-check-input mt-0">
+            <label for="at12">&nbsp;Sessile drop&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat12" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -230,17 +230,17 @@
 <h5>Calor Específico [J/g·K]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;DTA&nbsp;</label>
+            <input type="checkbox" id="at13" class="form-check-input mt-0">
+            <label for="at13">&nbsp;DTA&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat13" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dsc" class="form-check-input mt-0">
-            <label for="dsc">&nbsp;DSC&nbsp;</label>
+            <input type="checkbox" id="at14" class="form-check-input mt-0">
+            <label for="at14">&nbsp;DSC&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat14" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -248,17 +248,17 @@
 <h5>Calor Latente [J/g]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;DTA&nbsp;</label>
+            <input type="checkbox" id="at15" class="form-check-input mt-0">
+            <label for="at15">&nbsp;DTA&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat15" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dsc" class="form-check-input mt-0">
-            <label for="dsc">&nbsp;DSC&nbsp;</label>
+            <input type="checkbox" id="at16" class="form-check-input mt-0">
+            <label for="at16">&nbsp;DSC&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat16" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -266,10 +266,10 @@
 <h5>Presión de Vapor [Pa]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Dif. Manométrica&nbsp;</label>
+            <input type="checkbox" id="at17" class="form-check-input mt-0">
+            <label for="at17">&nbsp;Dif. Manométrica&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat17" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -277,10 +277,10 @@
 <h5>Cond. Térmica [W/m·K]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Laser Flash Pulse&nbsp;</label>
+            <input type="checkbox" id="at18" class="form-check-input mt-0">
+            <label for="at18">&nbsp;Laser Flash Pulse&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat18" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -288,10 +288,10 @@
 <h5>Coeficiente de Expansión Térmica [&Delta;V<sub>m</sub>]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Dilatometría&nbsp;</label>
+            <input type="checkbox" id="at19" class="form-check-input mt-0">
+            <label for="at19">&nbsp;Dilatometría&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat19" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -301,10 +301,10 @@
 <h5>Resistividad [&Omega;·m]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Shunt&nbsp;</label>
+            <input type="checkbox" id="at20" class="form-check-input mt-0">
+            <label for="at20">&nbsp;Shunt&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat20" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -312,10 +312,10 @@
 <h5>Permeabilidad Magnética [N/A<sup>2</sup>]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Rugowsky&nbsp;</label>
+            <input type="checkbox" id="at21" class="form-check-input mt-0">
+            <label for="at21">&nbsp;Rugowsky&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat21" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -325,17 +325,17 @@
 <h5>Constante de Sievert [/Pa]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;IDE&nbsp;</label>
+            <input type="checkbox" id="at22" class="form-check-input mt-0">
+            <label for="at22">&nbsp;IDE&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat22" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Permeación&nbsp;</label>
+            <input type="checkbox" id="at23" class="form-check-input mt-0">
+            <label for="at23">&nbsp;Permeación&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat23" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -343,17 +343,17 @@
 <h5>Coeficiente de Difusión [m<sup>2</sup>/s]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;IDE&nbsp;</label>
+            <input type="checkbox" id="at24" class="form-check-input mt-0">
+            <label for="at24">&nbsp;IDE&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat24" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Permeación&nbsp;</label>
+            <input type="checkbox" id="at25" class="form-check-input mt-0">
+            <label for="at25">&nbsp;Permeación&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat25" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -361,17 +361,17 @@
 <h5>Const. Rec. [m<sup>4</sup>/s/at]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;IDE&nbsp;</label>
+            <input type="checkbox" id="at26" class="form-check-input mt-0">
+            <label for="at26">&nbsp;IDE&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat26" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Permeación&nbsp;</label>
+            <input type="checkbox" id="at27" class="form-check-input mt-0">
+            <label for="at27">&nbsp;Permeación&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat27" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -379,10 +379,10 @@
 <h5>Coeficiente de Transferencia de Masa [m/s]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Contactores de Gas&nbsp;</label>
+            <input type="checkbox" id="at28" class="form-check-input mt-0">
+            <label for="at28">&nbsp;Contactores de Gas&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat28" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -392,10 +392,10 @@
 <h5>Constante de Henry [/Pa]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;HP IDE u otros&nbsp;</label>
+            <input type="checkbox" id="at29" class="form-check-input mt-0">
+            <label for="at29">&nbsp;HP IDE u otros&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat29" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -403,10 +403,10 @@
 <h5>Coeficiente de Difusión [m<sup>2</sup>/s]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;HP IDE u otros&nbsp;</label>
+            <input type="checkbox" id="at30" class="form-check-input mt-0">
+            <label for="at30">&nbsp;HP IDE u otros&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat30" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -414,10 +414,10 @@
 <h5>Coeficiente de Disp. de Fase [&Sigma;]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Contactores de Gas&nbsp;</label>
+            <input type="checkbox" id="at31" class="form-check-input mt-0">
+            <label for="at31">&nbsp;Contactores de Gas&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat31" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -427,10 +427,10 @@
 <h5>Sol./Dif. (Ni, Mn, Cr, Fe...)</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;MNL20-2ND-EB, STP866-EB&nbsp;</label>
+            <input type="checkbox" id="at32" class="form-check-input mt-0">
+            <label for="at32">&nbsp;MNL20-2ND-EB, STP866-EB&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat32" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -438,10 +438,10 @@
 <h5>Interacción aire-agua</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;DSC, &Delta;G (indirecto)&nbsp;</label>
+            <input type="checkbox" id="at33" class="form-check-input mt-0">
+            <label for="at33">&nbsp;DSC, &Delta;G (indirecto)&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat33" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -449,10 +449,10 @@
 <h5>Estab. Quim. Ceram (&Delta;G[kJ/mol])</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;DSC, &Delta;G (indirecto)&nbsp;</label>
+            <input type="checkbox" id="at34" class="form-check-input mt-0">
+            <label for="at34">&nbsp;DSC, &Delta;G (indirecto)&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat34" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
@@ -460,10 +460,10 @@
 <h5>Presión de vapor Pb-Po-Hg interm. [Pa]</h5>
     <div class="input-group mb-3">
         <div class="input-group-text">
-            <input type="checkbox" id="dta" class="form-check-input mt-0">
-            <label for="dta">&nbsp;Manometría Diferencial&nbsp;</label>
+            <input type="checkbox" id="at35" class="form-check-input mt-0">
+            <label for="at35">&nbsp;Manometría Diferencial&nbsp;</label>
         </div>
-            <input type="text" id="campoTexto" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
+            <input type="text" id="tat35" class="form-control" placeholder="Introduzca aquí modelo del instrumento de medida" disabled>
     </div>
 </div><br>
 
