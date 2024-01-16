@@ -64,7 +64,7 @@
 </div><br>
 <br>
 
-<form id="miFormulario">
+<form id="miFormulario" onsubmit="return validateEmail()">
 
     <div class="mb-3">
         <h5>Email</h5>
@@ -472,7 +472,7 @@
     <br>
     <span class="clearfix"></span>
     <div class="d-flex justify-content-center">
-    <button type="submit" class="btn btn-primary">Guardar y enviar</button>
+    <input type="submit" value="Guardar y Enviar" class="btn btn-primary">
     </div>
 </form>
 <br><br><br>
