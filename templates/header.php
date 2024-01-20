@@ -17,6 +17,7 @@
             crossorigin="anonymous"
         />
         <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/vnd.icon" href="../favicon.ico">
     </head>
 
     <body>
