@@ -15,8 +15,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         'document' => $documentContent // Asegúrate de que la API pueda manejar el contenido del documento de esta manera
     ];
 
+    $api = shell_exec('printenv OPENAI_API_KEY');
     // Inicializar sesión cURL
-    $ch = curl_init('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'); // Reemplaza con la URL real de la API
+    $ch = curl_init($api); // Reemplaza con la URL real de la API
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
