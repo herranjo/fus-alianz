@@ -57,7 +57,7 @@
           <a href="contact.php">Contact</a>
         </li>
         <li>
-          <a href="login.php">MyFus&nbsp;<i class="fas fa-lock"></i></a>
+          <a href="login.php">MyFus&nbsp;(<i class="fas fa-lock"></i>)</a>
         </li>
       </ul>
     </nav>

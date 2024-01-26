@@ -1,3 +1,7 @@
+  
+  
+</div>
+
   <!-- Footer Links -->
   <div class="footer-links">
     <div class="footer-container">
@@ -96,12 +100,12 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <h3>Fus-Alianz, SE&C © Copyright 2023</h3>
+    <h4>Fus-Alianz, SE&C © Copyright 2024</h4>
   </footer>
 
-  <!-- Scroll Reveal 
-  <script src="https://unpkg.com/scrollreveal"></script> 
-  <script src="main.js"></script> -->
+  <!-- Scroll Reveal -->
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  <script src="main.js"></script>
 </body>
 
 </html>
